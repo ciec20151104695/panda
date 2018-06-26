@@ -7,88 +7,86 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FD2BB5FA20A5357B005FDD5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2BB5F920A5357B005FDD5A /* AppDelegate.swift */; };
-		FD2BB5FC20A5357B005FDD5A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FD2BB5FB20A5357B005FDD5A /* GameScene.sks */; };
-		FD2BB5FE20A5357B005FDD5A /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FD2BB5FD20A5357B005FDD5A /* Actions.sks */; };
-		FD2BB60020A5357B005FDD5A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2BB5FF20A5357B005FDD5A /* GameScene.swift */; };
-		FD2BB60220A5357B005FDD5A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2BB60120A5357B005FDD5A /* GameViewController.swift */; };
-		FD2BB60520A5357B005FDD5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD2BB60320A5357B005FDD5A /* Main.storyboard */; };
-		FD2BB60720A5357B005FDD5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD2BB60620A5357B005FDD5A /* Assets.xcassets */; };
-		FD2BB60A20A5357B005FDD5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD2BB60820A5357B005FDD5A /* LaunchScreen.storyboard */; };
-		FD2BB61520A5357B005FDD5A /* pandaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2BB61420A5357B005FDD5A /* pandaTests.swift */; };
-		FD2BB62020A5357B005FDD5A /* pandaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2BB61F20A5357B005FDD5A /* pandaUITests.swift */; };
-		FD2BB63220A5358F005FDD5A /* jump.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FD2BB62E20A5358F005FDD5A /* jump.atlas */; };
-		FD2BB63320A5358F005FDD5A /* jump_effect.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FD2BB62F20A5358F005FDD5A /* jump_effect.atlas */; };
-		FD2BB63420A5358F005FDD5A /* roll.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FD2BB63020A5358F005FDD5A /* roll.atlas */; };
-		FD2BB63520A5358F005FDD5A /* run.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FD2BB63120A5358F005FDD5A /* run.atlas */; };
-		FD2BB63B20A5359D005FDD5A /* apple.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FD2BB63720A5359D005FDD5A /* apple.mp3 */; };
-		FD2BB63C20A5359D005FDD5A /* hit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FD2BB63820A5359D005FDD5A /* hit.mp3 */; };
-		FD2BB63D20A5359D005FDD5A /* hit_platform.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FD2BB63920A5359D005FDD5A /* hit_platform.mp3 */; };
-		FD2BB63E20A5359D005FDD5A /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FD2BB63A20A5359D005FDD5A /* lose.mp3 */; };
-		FD2BB64020A535EC005FDD5A /* Panda.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2BB63F20A535EC005FDD5A /* Panda.swift */; };
+		FDF3D85A20E1CB3500D233B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF3D85920E1CB3500D233B5 /* AppDelegate.swift */; };
+		FDF3D85C20E1CB3500D233B5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FDF3D85B20E1CB3500D233B5 /* GameScene.sks */; };
+		FDF3D85E20E1CB3500D233B5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF3D85D20E1CB3500D233B5 /* GameScene.swift */; };
+		FDF3D86020E1CB3500D233B5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF3D85F20E1CB3500D233B5 /* GameViewController.swift */; };
+		FDF3D86320E1CB3500D233B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF3D86120E1CB3500D233B5 /* Main.storyboard */; };
+		FDF3D86520E1CB3500D233B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF3D86420E1CB3500D233B5 /* Assets.xcassets */; };
+		FDF3D86820E1CB3500D233B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF3D86620E1CB3500D233B5 /* LaunchScreen.storyboard */; };
+		FDF3D87320E1CB3500D233B5 /* pandaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF3D87220E1CB3500D233B5 /* pandaTests.swift */; };
+		FDF3D87E20E1CB3500D233B5 /* pandaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF3D87D20E1CB3500D233B5 /* pandaUITests.swift */; };
+		FDF3D89020E1CBCD00D233B5 /* jump.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FDF3D88C20E1CBCD00D233B5 /* jump.atlas */; };
+		FDF3D89120E1CBCD00D233B5 /* jump_effect.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FDF3D88D20E1CBCD00D233B5 /* jump_effect.atlas */; };
+		FDF3D89220E1CBCD00D233B5 /* roll.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FDF3D88E20E1CBCD00D233B5 /* roll.atlas */; };
+		FDF3D89320E1CBCD00D233B5 /* run.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FDF3D88F20E1CBCD00D233B5 /* run.atlas */; };
+		FDF3D89920E1CC4800D233B5 /* apple.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDF3D89520E1CC4800D233B5 /* apple.mp3 */; };
+		FDF3D89A20E1CC4800D233B5 /* hit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDF3D89620E1CC4800D233B5 /* hit.mp3 */; };
+		FDF3D89B20E1CC4800D233B5 /* hit_platform.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDF3D89720E1CC4800D233B5 /* hit_platform.mp3 */; };
+		FDF3D89C20E1CC4800D233B5 /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDF3D89820E1CC4800D233B5 /* lose.mp3 */; };
+		FDF3D89E20E1CD0D00D233B5 /* Panda.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF3D89D20E1CD0D00D233B5 /* Panda.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FD2BB61120A5357B005FDD5A /* PBXContainerItemProxy */ = {
+		FDF3D86F20E1CB3500D233B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FD2BB5EE20A5357B005FDD5A /* Project object */;
+			containerPortal = FDF3D84E20E1CB3400D233B5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FD2BB5F520A5357B005FDD5A;
+			remoteGlobalIDString = FDF3D85520E1CB3400D233B5;
 			remoteInfo = panda;
 		};
-		FD2BB61C20A5357B005FDD5A /* PBXContainerItemProxy */ = {
+		FDF3D87A20E1CB3500D233B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FD2BB5EE20A5357B005FDD5A /* Project object */;
+			containerPortal = FDF3D84E20E1CB3400D233B5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FD2BB5F520A5357B005FDD5A;
+			remoteGlobalIDString = FDF3D85520E1CB3400D233B5;
 			remoteInfo = panda;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FD2BB5F620A5357B005FDD5A /* panda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = panda.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD2BB5F920A5357B005FDD5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FD2BB5FB20A5357B005FDD5A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		FD2BB5FD20A5357B005FDD5A /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		FD2BB5FF20A5357B005FDD5A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		FD2BB60120A5357B005FDD5A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		FD2BB60420A5357B005FDD5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FD2BB60620A5357B005FDD5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FD2BB60920A5357B005FDD5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FD2BB60B20A5357B005FDD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD2BB61020A5357B005FDD5A /* pandaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pandaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD2BB61420A5357B005FDD5A /* pandaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pandaTests.swift; sourceTree = "<group>"; };
-		FD2BB61620A5357B005FDD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD2BB61B20A5357B005FDD5A /* pandaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pandaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD2BB61F20A5357B005FDD5A /* pandaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pandaUITests.swift; sourceTree = "<group>"; };
-		FD2BB62120A5357B005FDD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD2BB62E20A5358F005FDD5A /* jump.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = jump.atlas; sourceTree = "<group>"; };
-		FD2BB62F20A5358F005FDD5A /* jump_effect.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = jump_effect.atlas; sourceTree = "<group>"; };
-		FD2BB63020A5358F005FDD5A /* roll.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = roll.atlas; sourceTree = "<group>"; };
-		FD2BB63120A5358F005FDD5A /* run.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = run.atlas; sourceTree = "<group>"; };
-		FD2BB63720A5359D005FDD5A /* apple.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = apple.mp3; sourceTree = "<group>"; };
-		FD2BB63820A5359D005FDD5A /* hit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hit.mp3; sourceTree = "<group>"; };
-		FD2BB63920A5359D005FDD5A /* hit_platform.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hit_platform.mp3; sourceTree = "<group>"; };
-		FD2BB63A20A5359D005FDD5A /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
-		FD2BB63F20A535EC005FDD5A /* Panda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Panda.swift; sourceTree = "<group>"; };
+		FDF3D85620E1CB3400D233B5 /* panda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = panda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF3D85920E1CB3500D233B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDF3D85B20E1CB3500D233B5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FDF3D85D20E1CB3500D233B5 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FDF3D85F20E1CB3500D233B5 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FDF3D86220E1CB3500D233B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDF3D86420E1CB3500D233B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDF3D86720E1CB3500D233B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDF3D86920E1CB3500D233B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF3D86E20E1CB3500D233B5 /* pandaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pandaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF3D87220E1CB3500D233B5 /* pandaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pandaTests.swift; sourceTree = "<group>"; };
+		FDF3D87420E1CB3500D233B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF3D87920E1CB3500D233B5 /* pandaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pandaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF3D87D20E1CB3500D233B5 /* pandaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pandaUITests.swift; sourceTree = "<group>"; };
+		FDF3D87F20E1CB3500D233B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF3D88C20E1CBCD00D233B5 /* jump.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = jump.atlas; sourceTree = "<group>"; };
+		FDF3D88D20E1CBCD00D233B5 /* jump_effect.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = jump_effect.atlas; sourceTree = "<group>"; };
+		FDF3D88E20E1CBCD00D233B5 /* roll.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = roll.atlas; sourceTree = "<group>"; };
+		FDF3D88F20E1CBCD00D233B5 /* run.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = run.atlas; sourceTree = "<group>"; };
+		FDF3D89520E1CC4800D233B5 /* apple.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = apple.mp3; sourceTree = "<group>"; };
+		FDF3D89620E1CC4800D233B5 /* hit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hit.mp3; sourceTree = "<group>"; };
+		FDF3D89720E1CC4800D233B5 /* hit_platform.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hit_platform.mp3; sourceTree = "<group>"; };
+		FDF3D89820E1CC4800D233B5 /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
+		FDF3D89D20E1CD0D00D233B5 /* Panda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Panda.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FD2BB5F320A5357B005FDD5A /* Frameworks */ = {
+		FDF3D85320E1CB3400D233B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD2BB60D20A5357B005FDD5A /* Frameworks */ = {
+		FDF3D86B20E1CB3500D233B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD2BB61820A5357B005FDD5A /* Frameworks */ = {
+		FDF3D87620E1CB3500D233B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -98,81 +96,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FD2BB5ED20A5357B005FDD5A = {
+		FDF3D84D20E1CB3400D233B5 = {
 			isa = PBXGroup;
 			children = (
-				FD2BB5F820A5357B005FDD5A /* panda */,
-				FD2BB61320A5357B005FDD5A /* pandaTests */,
-				FD2BB61E20A5357B005FDD5A /* pandaUITests */,
-				FD2BB5F720A5357B005FDD5A /* Products */,
+				FDF3D85820E1CB3400D233B5 /* panda */,
+				FDF3D87120E1CB3500D233B5 /* pandaTests */,
+				FDF3D87C20E1CB3500D233B5 /* pandaUITests */,
+				FDF3D85720E1CB3400D233B5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FD2BB5F720A5357B005FDD5A /* Products */ = {
+		FDF3D85720E1CB3400D233B5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FD2BB5F620A5357B005FDD5A /* panda.app */,
-				FD2BB61020A5357B005FDD5A /* pandaTests.xctest */,
-				FD2BB61B20A5357B005FDD5A /* pandaUITests.xctest */,
+				FDF3D85620E1CB3400D233B5 /* panda.app */,
+				FDF3D86E20E1CB3500D233B5 /* pandaTests.xctest */,
+				FDF3D87920E1CB3500D233B5 /* pandaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FD2BB5F820A5357B005FDD5A /* panda */ = {
+		FDF3D85820E1CB3400D233B5 /* panda */ = {
 			isa = PBXGroup;
 			children = (
-				FD2BB63620A5359D005FDD5A /* sound */,
-				FD2BB62D20A5358F005FDD5A /* atlas */,
-				FD2BB5F920A5357B005FDD5A /* AppDelegate.swift */,
-				FD2BB63F20A535EC005FDD5A /* Panda.swift */,
-				FD2BB5FB20A5357B005FDD5A /* GameScene.sks */,
-				FD2BB5FD20A5357B005FDD5A /* Actions.sks */,
-				FD2BB5FF20A5357B005FDD5A /* GameScene.swift */,
-				FD2BB60120A5357B005FDD5A /* GameViewController.swift */,
-				FD2BB60320A5357B005FDD5A /* Main.storyboard */,
-				FD2BB60620A5357B005FDD5A /* Assets.xcassets */,
-				FD2BB60820A5357B005FDD5A /* LaunchScreen.storyboard */,
-				FD2BB60B20A5357B005FDD5A /* Info.plist */,
+				FDF3D89420E1CC4800D233B5 /* sound */,
+				FDF3D88B20E1CBCD00D233B5 /* atlas */,
+				FDF3D85920E1CB3500D233B5 /* AppDelegate.swift */,
+				FDF3D89D20E1CD0D00D233B5 /* Panda.swift */,
+				FDF3D85B20E1CB3500D233B5 /* GameScene.sks */,
+				FDF3D85D20E1CB3500D233B5 /* GameScene.swift */,
+				FDF3D85F20E1CB3500D233B5 /* GameViewController.swift */,
+				FDF3D86120E1CB3500D233B5 /* Main.storyboard */,
+				FDF3D86420E1CB3500D233B5 /* Assets.xcassets */,
+				FDF3D86620E1CB3500D233B5 /* LaunchScreen.storyboard */,
+				FDF3D86920E1CB3500D233B5 /* Info.plist */,
 			);
 			path = panda;
 			sourceTree = "<group>";
 		};
-		FD2BB61320A5357B005FDD5A /* pandaTests */ = {
+		FDF3D87120E1CB3500D233B5 /* pandaTests */ = {
 			isa = PBXGroup;
 			children = (
-				FD2BB61420A5357B005FDD5A /* pandaTests.swift */,
-				FD2BB61620A5357B005FDD5A /* Info.plist */,
+				FDF3D87220E1CB3500D233B5 /* pandaTests.swift */,
+				FDF3D87420E1CB3500D233B5 /* Info.plist */,
 			);
 			path = pandaTests;
 			sourceTree = "<group>";
 		};
-		FD2BB61E20A5357B005FDD5A /* pandaUITests */ = {
+		FDF3D87C20E1CB3500D233B5 /* pandaUITests */ = {
 			isa = PBXGroup;
 			children = (
-				FD2BB61F20A5357B005FDD5A /* pandaUITests.swift */,
-				FD2BB62120A5357B005FDD5A /* Info.plist */,
+				FDF3D87D20E1CB3500D233B5 /* pandaUITests.swift */,
+				FDF3D87F20E1CB3500D233B5 /* Info.plist */,
 			);
 			path = pandaUITests;
 			sourceTree = "<group>";
 		};
-		FD2BB62D20A5358F005FDD5A /* atlas */ = {
+		FDF3D88B20E1CBCD00D233B5 /* atlas */ = {
 			isa = PBXGroup;
 			children = (
-				FD2BB62E20A5358F005FDD5A /* jump.atlas */,
-				FD2BB62F20A5358F005FDD5A /* jump_effect.atlas */,
-				FD2BB63020A5358F005FDD5A /* roll.atlas */,
-				FD2BB63120A5358F005FDD5A /* run.atlas */,
+				FDF3D88C20E1CBCD00D233B5 /* jump.atlas */,
+				FDF3D88D20E1CBCD00D233B5 /* jump_effect.atlas */,
+				FDF3D88E20E1CBCD00D233B5 /* roll.atlas */,
+				FDF3D88F20E1CBCD00D233B5 /* run.atlas */,
 			);
 			path = atlas;
 			sourceTree = "<group>";
 		};
-		FD2BB63620A5359D005FDD5A /* sound */ = {
+		FDF3D89420E1CC4800D233B5 /* sound */ = {
 			isa = PBXGroup;
 			children = (
-				FD2BB63720A5359D005FDD5A /* apple.mp3 */,
-				FD2BB63820A5359D005FDD5A /* hit.mp3 */,
-				FD2BB63920A5359D005FDD5A /* hit_platform.mp3 */,
-				FD2BB63A20A5359D005FDD5A /* lose.mp3 */,
+				FDF3D89520E1CC4800D233B5 /* apple.mp3 */,
+				FDF3D89620E1CC4800D233B5 /* hit.mp3 */,
+				FDF3D89720E1CC4800D233B5 /* hit_platform.mp3 */,
+				FDF3D89820E1CC4800D233B5 /* lose.mp3 */,
 			);
 			path = sound;
 			sourceTree = "<group>";
@@ -180,13 +177,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FD2BB5F520A5357B005FDD5A /* panda */ = {
+		FDF3D85520E1CB3400D233B5 /* panda */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD2BB62420A5357B005FDD5A /* Build configuration list for PBXNativeTarget "panda" */;
+			buildConfigurationList = FDF3D88220E1CB3500D233B5 /* Build configuration list for PBXNativeTarget "panda" */;
 			buildPhases = (
-				FD2BB5F220A5357B005FDD5A /* Sources */,
-				FD2BB5F320A5357B005FDD5A /* Frameworks */,
-				FD2BB5F420A5357B005FDD5A /* Resources */,
+				FDF3D85220E1CB3400D233B5 /* Sources */,
+				FDF3D85320E1CB3400D233B5 /* Frameworks */,
+				FDF3D85420E1CB3400D233B5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -194,72 +191,69 @@
 			);
 			name = panda;
 			productName = panda;
-			productReference = FD2BB5F620A5357B005FDD5A /* panda.app */;
+			productReference = FDF3D85620E1CB3400D233B5 /* panda.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FD2BB60F20A5357B005FDD5A /* pandaTests */ = {
+		FDF3D86D20E1CB3500D233B5 /* pandaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD2BB62720A5357B005FDD5A /* Build configuration list for PBXNativeTarget "pandaTests" */;
+			buildConfigurationList = FDF3D88520E1CB3500D233B5 /* Build configuration list for PBXNativeTarget "pandaTests" */;
 			buildPhases = (
-				FD2BB60C20A5357B005FDD5A /* Sources */,
-				FD2BB60D20A5357B005FDD5A /* Frameworks */,
-				FD2BB60E20A5357B005FDD5A /* Resources */,
+				FDF3D86A20E1CB3500D233B5 /* Sources */,
+				FDF3D86B20E1CB3500D233B5 /* Frameworks */,
+				FDF3D86C20E1CB3500D233B5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FD2BB61220A5357B005FDD5A /* PBXTargetDependency */,
+				FDF3D87020E1CB3500D233B5 /* PBXTargetDependency */,
 			);
 			name = pandaTests;
 			productName = pandaTests;
-			productReference = FD2BB61020A5357B005FDD5A /* pandaTests.xctest */;
+			productReference = FDF3D86E20E1CB3500D233B5 /* pandaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FD2BB61A20A5357B005FDD5A /* pandaUITests */ = {
+		FDF3D87820E1CB3500D233B5 /* pandaUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD2BB62A20A5357B005FDD5A /* Build configuration list for PBXNativeTarget "pandaUITests" */;
+			buildConfigurationList = FDF3D88820E1CB3500D233B5 /* Build configuration list for PBXNativeTarget "pandaUITests" */;
 			buildPhases = (
-				FD2BB61720A5357B005FDD5A /* Sources */,
-				FD2BB61820A5357B005FDD5A /* Frameworks */,
-				FD2BB61920A5357B005FDD5A /* Resources */,
+				FDF3D87520E1CB3500D233B5 /* Sources */,
+				FDF3D87620E1CB3500D233B5 /* Frameworks */,
+				FDF3D87720E1CB3500D233B5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FD2BB61D20A5357B005FDD5A /* PBXTargetDependency */,
+				FDF3D87B20E1CB3500D233B5 /* PBXTargetDependency */,
 			);
 			name = pandaUITests;
 			productName = pandaUITests;
-			productReference = FD2BB61B20A5357B005FDD5A /* pandaUITests.xctest */;
+			productReference = FDF3D87920E1CB3500D233B5 /* pandaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FD2BB5EE20A5357B005FDD5A /* Project object */ = {
+		FDF3D84E20E1CB3400D233B5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = s20151104695;
 				TargetAttributes = {
-					FD2BB5F520A5357B005FDD5A = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+					FDF3D85520E1CB3400D233B5 = {
+						CreatedOnToolsVersion = 7.3;
 					};
-					FD2BB60F20A5357B005FDD5A = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = FD2BB5F520A5357B005FDD5A;
+					FDF3D86D20E1CB3500D233B5 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FDF3D85520E1CB3400D233B5;
 					};
-					FD2BB61A20A5357B005FDD5A = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = FD2BB5F520A5357B005FDD5A;
+					FDF3D87820E1CB3500D233B5 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FDF3D85520E1CB3400D233B5;
 					};
 				};
 			};
-			buildConfigurationList = FD2BB5F120A5357B005FDD5A /* Build configuration list for PBXProject "panda" */;
+			buildConfigurationList = FDF3D85120E1CB3400D233B5 /* Build configuration list for PBXProject "panda" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -267,47 +261,46 @@
 				en,
 				Base,
 			);
-			mainGroup = FD2BB5ED20A5357B005FDD5A;
-			productRefGroup = FD2BB5F720A5357B005FDD5A /* Products */;
+			mainGroup = FDF3D84D20E1CB3400D233B5;
+			productRefGroup = FDF3D85720E1CB3400D233B5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FD2BB5F520A5357B005FDD5A /* panda */,
-				FD2BB60F20A5357B005FDD5A /* pandaTests */,
-				FD2BB61A20A5357B005FDD5A /* pandaUITests */,
+				FDF3D85520E1CB3400D233B5 /* panda */,
+				FDF3D86D20E1CB3500D233B5 /* pandaTests */,
+				FDF3D87820E1CB3500D233B5 /* pandaUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FD2BB5F420A5357B005FDD5A /* Resources */ = {
+		FDF3D85420E1CB3400D233B5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD2BB60520A5357B005FDD5A /* Main.storyboard in Resources */,
-				FD2BB63220A5358F005FDD5A /* jump.atlas in Resources */,
-				FD2BB5FC20A5357B005FDD5A /* GameScene.sks in Resources */,
-				FD2BB63520A5358F005FDD5A /* run.atlas in Resources */,
-				FD2BB60720A5357B005FDD5A /* Assets.xcassets in Resources */,
-				FD2BB63320A5358F005FDD5A /* jump_effect.atlas in Resources */,
-				FD2BB63C20A5359D005FDD5A /* hit.mp3 in Resources */,
-				FD2BB63D20A5359D005FDD5A /* hit_platform.mp3 in Resources */,
-				FD2BB60A20A5357B005FDD5A /* LaunchScreen.storyboard in Resources */,
-				FD2BB63420A5358F005FDD5A /* roll.atlas in Resources */,
-				FD2BB5FE20A5357B005FDD5A /* Actions.sks in Resources */,
-				FD2BB63B20A5359D005FDD5A /* apple.mp3 in Resources */,
-				FD2BB63E20A5359D005FDD5A /* lose.mp3 in Resources */,
+				FDF3D85C20E1CB3500D233B5 /* GameScene.sks in Resources */,
+				FDF3D89320E1CBCD00D233B5 /* run.atlas in Resources */,
+				FDF3D86820E1CB3500D233B5 /* LaunchScreen.storyboard in Resources */,
+				FDF3D89B20E1CC4800D233B5 /* hit_platform.mp3 in Resources */,
+				FDF3D89120E1CBCD00D233B5 /* jump_effect.atlas in Resources */,
+				FDF3D89C20E1CC4800D233B5 /* lose.mp3 in Resources */,
+				FDF3D89A20E1CC4800D233B5 /* hit.mp3 in Resources */,
+				FDF3D89920E1CC4800D233B5 /* apple.mp3 in Resources */,
+				FDF3D86520E1CB3500D233B5 /* Assets.xcassets in Resources */,
+				FDF3D86320E1CB3500D233B5 /* Main.storyboard in Resources */,
+				FDF3D89220E1CBCD00D233B5 /* roll.atlas in Resources */,
+				FDF3D89020E1CBCD00D233B5 /* jump.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD2BB60E20A5357B005FDD5A /* Resources */ = {
+		FDF3D86C20E1CB3500D233B5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD2BB61920A5357B005FDD5A /* Resources */ = {
+		FDF3D87720E1CB3500D233B5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -317,61 +310,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FD2BB5F220A5357B005FDD5A /* Sources */ = {
+		FDF3D85220E1CB3400D233B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD2BB60020A5357B005FDD5A /* GameScene.swift in Sources */,
-				FD2BB60220A5357B005FDD5A /* GameViewController.swift in Sources */,
-				FD2BB64020A535EC005FDD5A /* Panda.swift in Sources */,
-				FD2BB5FA20A5357B005FDD5A /* AppDelegate.swift in Sources */,
+				FDF3D85E20E1CB3500D233B5 /* GameScene.swift in Sources */,
+				FDF3D86020E1CB3500D233B5 /* GameViewController.swift in Sources */,
+				FDF3D89E20E1CD0D00D233B5 /* Panda.swift in Sources */,
+				FDF3D85A20E1CB3500D233B5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD2BB60C20A5357B005FDD5A /* Sources */ = {
+		FDF3D86A20E1CB3500D233B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD2BB61520A5357B005FDD5A /* pandaTests.swift in Sources */,
+				FDF3D87320E1CB3500D233B5 /* pandaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD2BB61720A5357B005FDD5A /* Sources */ = {
+		FDF3D87520E1CB3500D233B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD2BB62020A5357B005FDD5A /* pandaUITests.swift in Sources */,
+				FDF3D87E20E1CB3500D233B5 /* pandaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FD2BB61220A5357B005FDD5A /* PBXTargetDependency */ = {
+		FDF3D87020E1CB3500D233B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FD2BB5F520A5357B005FDD5A /* panda */;
-			targetProxy = FD2BB61120A5357B005FDD5A /* PBXContainerItemProxy */;
+			target = FDF3D85520E1CB3400D233B5 /* panda */;
+			targetProxy = FDF3D86F20E1CB3500D233B5 /* PBXContainerItemProxy */;
 		};
-		FD2BB61D20A5357B005FDD5A /* PBXTargetDependency */ = {
+		FDF3D87B20E1CB3500D233B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FD2BB5F520A5357B005FDD5A /* panda */;
-			targetProxy = FD2BB61C20A5357B005FDD5A /* PBXContainerItemProxy */;
+			target = FDF3D85520E1CB3400D233B5 /* panda */;
+			targetProxy = FDF3D87A20E1CB3500D233B5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FD2BB60320A5357B005FDD5A /* Main.storyboard */ = {
+		FDF3D86120E1CB3500D233B5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FD2BB60420A5357B005FDD5A /* Base */,
+				FDF3D86220E1CB3500D233B5 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FD2BB60820A5357B005FDD5A /* LaunchScreen.storyboard */ = {
+		FDF3D86620E1CB3500D233B5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FD2BB60920A5357B005FDD5A /* Base */,
+				FDF3D86720E1CB3500D233B5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -379,7 +372,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FD2BB62220A5357B005FDD5A /* Debug */ = {
+		FDF3D88020E1CB3500D233B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -391,18 +384,15 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -419,17 +409,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		FD2BB62320A5357B005FDD5A /* Release */ = {
+		FDF3D88120E1CB3500D233B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -441,13 +430,10 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -463,93 +449,80 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		FD2BB62520A5357B005FDD5A /* Debug */ = {
+		FDF3D88320E1CB3500D233B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = panda/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = imun.edu.cn.panda;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		FD2BB62620A5357B005FDD5A /* Release */ = {
+		FDF3D88420E1CB3500D233B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = panda/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = imun.edu.cn.panda;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
-		FD2BB62820A5357B005FDD5A /* Debug */ = {
+		FDF3D88620E1CB3500D233B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = pandaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = imun.edu.cn.pandaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/panda.app/panda";
+			};
+			name = Debug;
+		};
+		FDF3D88720E1CB3500D233B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = pandaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = imun.edu.cn.pandaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/panda.app/panda";
-			};
-			name = Debug;
-		};
-		FD2BB62920A5357B005FDD5A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = pandaTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = imun.edu.cn.pandaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/panda.app/panda";
 			};
 			name = Release;
 		};
-		FD2BB62B20A5357B005FDD5A /* Debug */ = {
+		FDF3D88920E1CB3500D233B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				INFOPLIST_FILE = pandaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = imun.edu.cn.pandaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = panda;
 			};
 			name = Debug;
 		};
-		FD2BB62C20A5357B005FDD5A /* Release */ = {
+		FDF3D88A20E1CB3500D233B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = pandaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = imun.edu.cn.pandaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = panda;
 			};
 			name = Release;
@@ -557,43 +530,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FD2BB5F120A5357B005FDD5A /* Build configuration list for PBXProject "panda" */ = {
+		FDF3D85120E1CB3400D233B5 /* Build configuration list for PBXProject "panda" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD2BB62220A5357B005FDD5A /* Debug */,
-				FD2BB62320A5357B005FDD5A /* Release */,
+				FDF3D88020E1CB3500D233B5 /* Debug */,
+				FDF3D88120E1CB3500D233B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD2BB62420A5357B005FDD5A /* Build configuration list for PBXNativeTarget "panda" */ = {
+		FDF3D88220E1CB3500D233B5 /* Build configuration list for PBXNativeTarget "panda" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD2BB62520A5357B005FDD5A /* Debug */,
-				FD2BB62620A5357B005FDD5A /* Release */,
+				FDF3D88320E1CB3500D233B5 /* Debug */,
+				FDF3D88420E1CB3500D233B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		FD2BB62720A5357B005FDD5A /* Build configuration list for PBXNativeTarget "pandaTests" */ = {
+		FDF3D88520E1CB3500D233B5 /* Build configuration list for PBXNativeTarget "pandaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD2BB62820A5357B005FDD5A /* Debug */,
-				FD2BB62920A5357B005FDD5A /* Release */,
+				FDF3D88620E1CB3500D233B5 /* Debug */,
+				FDF3D88720E1CB3500D233B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		FD2BB62A20A5357B005FDD5A /* Build configuration list for PBXNativeTarget "pandaUITests" */ = {
+		FDF3D88820E1CB3500D233B5 /* Build configuration list for PBXNativeTarget "pandaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD2BB62B20A5357B005FDD5A /* Debug */,
-				FD2BB62C20A5357B005FDD5A /* Release */,
+				FDF3D88920E1CB3500D233B5 /* Debug */,
+				FDF3D88A20E1CB3500D233B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FD2BB5EE20A5357B005FDD5A /* Project object */;
+	rootObject = FDF3D84E20E1CB3400D233B5 /* Project object */;
 }

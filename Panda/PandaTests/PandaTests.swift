@@ -2,7 +2,7 @@
 //  pandaTests.swift
 //  pandaTests
 //
-//  Created by s20151104695 on 2018/5/11.
+//  Created by s20151104695 on 2018/6/26.
 //  Copyright © 2018年 s20151104695. All rights reserved.
 //
 
@@ -28,7 +28,7 @@ class pandaTests: XCTestCase {
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measure {
+        self.measureBlock {
             // Put the code you want to measure the time of here.
         }
     }

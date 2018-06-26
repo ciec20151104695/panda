@@ -2,7 +2,7 @@
 //  pandaUITests.swift
 //  pandaUITests
 //
-//  Created by s20151104695 on 2018/5/11.
+//  Created by s20151104695 on 2018/6/26.
 //  Copyright © 2018年 s20151104695. All rights reserved.
 //
 
