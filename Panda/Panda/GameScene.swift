@@ -7,7 +7,7 @@ class GameScene: SKScene {
     lazy var platformFactory = PlatformFactory()
     
     
-    
+    var moveSpeed :CGFloat = 15.0
     
     override func didMoveToView(view: SKView) {
         
@@ -34,5 +34,34 @@ class GameScene: SKScene {
    
     override func update(currentTime: CFTimeInterval) {
    
+//        if isLose {
+//            
+//        }else{
+//            if panda.position.x < 200 {
+//                let x = panda.position.x + 1
+//                panda.position = CGPointMake(x, panda.position.y)
+//            }
+//            distance += moveSpeed
+//            lastDis -= moveSpeed
+//            var tempSpeed = CGFloat(5 + Int(distance/2000))
+//            if tempSpeed > maxSpeed {
+//                tempSpeed = maxSpeed
+//            }
+//            if moveSpeed < tempSpeed {
+//                moveSpeed = tempSpeed
+//            }
+//            
+//            if lastDis < 0 {
+//                platformFactory.createPlatformRandom()
+//            }
+//            distance += moveSpeed
+//            scoreLab.text = "run: \(Int(distance/1000*10)/10) km"
+//            appLab.text = "eat: \(appleNum) apple"
+            platformFactory.move(moveSpeed)
+//            bg.move(moveSpeed/5)
+//            appleFactory.move(moveSpeed)
+//        }
+
+        
     }
 }
