@@ -4,7 +4,8 @@ import SpriteKit
 
 class GameScene: SKScene {
     lazy var panda = Panda()
-  
+    lazy var platformFactory = PlatformFactory()
+    
     
     
     
@@ -17,7 +18,9 @@ class GameScene: SKScene {
         panda.position = CGPointMake(200, 400)
         //将跑酷小人显示在场景中
         self.addChild(panda)
-       
+        
+        self.addChild(platformFactory)
+        platformFactory.createPlatform(3, x: 0, y: 200)
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {

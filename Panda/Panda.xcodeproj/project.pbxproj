@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FDB6DEFB20EA095100DB095F /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB6DEFA20EA095100DB095F /* Platform.swift */; };
+		FDB6DEFD20EA158D00DB095F /* PlatformFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB6DEFC20EA158D00DB095F /* PlatformFactory.swift */; };
 		FDF3D85A20E1CB3500D233B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF3D85920E1CB3500D233B5 /* AppDelegate.swift */; };
 		FDF3D85C20E1CB3500D233B5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FDF3D85B20E1CB3500D233B5 /* GameScene.sks */; };
 		FDF3D85E20E1CB3500D233B5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF3D85D20E1CB3500D233B5 /* GameScene.swift */; };
@@ -45,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FDB6DEFA20EA095100DB095F /* Platform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
+		FDB6DEFC20EA158D00DB095F /* PlatformFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatformFactory.swift; sourceTree = "<group>"; };
 		FDF3D85620E1CB3400D233B5 /* panda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = panda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF3D85920E1CB3500D233B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDF3D85B20E1CB3500D233B5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -125,6 +129,8 @@
 				FDF3D89D20E1CD0D00D233B5 /* Panda.swift */,
 				FDF3D85B20E1CB3500D233B5 /* GameScene.sks */,
 				FDF3D85D20E1CB3500D233B5 /* GameScene.swift */,
+				FDB6DEFA20EA095100DB095F /* Platform.swift */,
+				FDB6DEFC20EA158D00DB095F /* PlatformFactory.swift */,
 				FDF3D85F20E1CB3500D233B5 /* GameViewController.swift */,
 				FDF3D86120E1CB3500D233B5 /* Main.storyboard */,
 				FDF3D86420E1CB3500D233B5 /* Assets.xcassets */,
@@ -314,8 +320,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDB6DEFB20EA095100DB095F /* Platform.swift in Sources */,
 				FDF3D85E20E1CB3500D233B5 /* GameScene.swift in Sources */,
 				FDF3D86020E1CB3500D233B5 /* GameViewController.swift in Sources */,
+				FDB6DEFD20EA158D00DB095F /* PlatformFactory.swift in Sources */,
 				FDF3D89E20E1CD0D00D233B5 /* Panda.swift in Sources */,
 				FDF3D85A20E1CB3500D233B5 /* AppDelegate.swift in Sources */,
 			);
@@ -546,6 +554,7 @@
 				FDF3D88420E1CB3500D233B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDF3D88520E1CB3500D233B5 /* Build configuration list for PBXNativeTarget "pandaTests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +563,7 @@
 				FDF3D88720E1CB3500D233B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDF3D88820E1CB3500D233B5 /* Build configuration list for PBXNativeTarget "pandaUITests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +572,7 @@
 				FDF3D88A20E1CB3500D233B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
