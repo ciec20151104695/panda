@@ -5,6 +5,9 @@ import SpriteKit
 class GameScene: SKScene {
     lazy var panda = Panda()
   
+    
+    
+    
     override func didMoveToView(view: SKView) {
         
         let skyColor = SKColor(red:113/255,green:197/255,blue:207/255,alpha:1)
@@ -18,6 +21,12 @@ class GameScene: SKScene {
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        if panda.status == Status.run {
+        panda.jump()
+        }else if panda.status == Status.jump {
+        panda.roll()
+        }
+        
     }
    
     override func update(currentTime: CFTimeInterval) {
