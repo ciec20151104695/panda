@@ -12,8 +12,12 @@ class GameScene: SKScene,SKPhysicsContactDelegate ,ProtocolMainscreen{
     var lastDis:CGFloat = 0.0
     
     func didBeginContact(contact: SKPhysicsContact){
-        if (contact.bodyA.categoryBitMask | contact.bodyB.categoryBitMask) == (BitMaskType.platform | BitMaskType.panda){
+          if (contact.bodyA.categoryBitMask | contact.bodyB.categoryBitMask) == (BitMaskType.scene | BitMaskType.panda){
         
+        }
+        
+        if (contact.bodyA.categoryBitMask | contact.bodyB.categoryBitMask) == (BitMaskType.platform | BitMaskType.panda){
+            panda.run()
         }
         
     }

@@ -54,17 +54,19 @@ class Panda:SKSpriteNode {
             
         }
 //        // 跳的时候的点缀效果
-//        for var i=1 ; i <= jumpEffectAtlas.textureNames.count ; i += 1 {
-//            let tempName = String(format: "jump_effect_%.2d", i)
-//            let effectexture = jumpEffectAtlas.textureNamed(tempName)
-//            jumpEffectFrames.append(effectexture)
-//            
-//        }
-//        jumpEffect = SKSpriteNode(texture: jumpEffectFrames[0])
-//        jumpEffect.position = CGPointMake(-80, -30)
-//        jumpEffect.hidden = true
-//        self.addChild(jumpEffect)
-//        
+        for var i=1 ; i <= jumpEffectAtlas.textureNames.count ; i += 1 {
+            let tempName = String(format: "jump_effect_%.2d", i)
+            let effectexture = jumpEffectAtlas.textureNamed(tempName)
+            jumpEffectFrames.append(effectexture)
+            
+        }
+        jumpEffect = SKSpriteNode(texture: jumpEffectFrames[0])
+        jumpEffect.position = CGPointMake(-80, -30)
+        jumpEffect.hidden = true
+        self.addChild(jumpEffect)
+        
+        
+        
         self.physicsBody = SKPhysicsBody(rectangleOfSize: size)
         self.physicsBody?.dynamic = true
         self.physicsBody?.allowsRotation = false
