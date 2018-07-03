@@ -24,7 +24,7 @@ class GameScene: SKScene,SKPhysicsContactDelegate ,ProtocolMainscreen{
         self.backgroundColor = skyColor
         //背景
         self.addChild(bg)
-        bg.zPosition = 20
+        
         //背景z坐标
         
         self.physicsWorld.contactDelegate = self
@@ -37,7 +37,7 @@ class GameScene: SKScene,SKPhysicsContactDelegate ,ProtocolMainscreen{
         //给跑酷小人定一个初始位置
         panda.position = CGPointMake(200, 400)
         //将跑酷小人显示在场景中
-        panda.zPosition = 50
+        
         //熊猫z坐标
         
         self.addChild(panda)
@@ -45,7 +45,7 @@ class GameScene: SKScene,SKPhysicsContactDelegate ,ProtocolMainscreen{
         self.addChild(platformFactory)
         platformFactory.screenWdith = self.frame.width
         platformFactory.delegate = self
-        platformFactory.zPosition = 35
+      
         platformFactory.createPlatform(3, x: 0, y: 200)
         
     }
