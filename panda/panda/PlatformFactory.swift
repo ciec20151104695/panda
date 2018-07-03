@@ -6,8 +6,21 @@ class PlatformFactory:SKNode {
     let textureRight = SKTexture(imageNamed: "platform_r")
     
     var platforms = [Platform]()
-
+    var screenWdith:CGFloat = 0.0
+    var delegate:ProtocolMainscreen?
     
+    func createPlatformRandom(){
+        //随即平台长度
+        let midNum = arc4random()%4 + 1
+        //随机间隔
+        let gap:CGFloat = CGFloat(arc4random()%8 + 1)
+        //x坐标
+        let x = self.screenWdith + CGFloat(midNum*50) + gap + 100
+        //y坐标
+        let y = CGFloat(arc4random()%200 + 200)
+        
+        createPlatform(midNum, x: x, y: y)
+    }
     
     func createPlatform(midNum:UInt32,x:CGFloat,y:CGFloat){
         let platform = Platform()
@@ -28,12 +41,16 @@ class PlatformFactory:SKNode {
             arrPlatform.append(platform_mid)
         }
         arrPlatform.append(platform_right)
+        
         platform.onCreate(arrPlatform)
+        
         platform.name = "platform"
+        
         self.addChild(platform)
         
         platforms.append(platform)
-   //     self.delegate?.onGetData(platform.width + x - screenWdith,theY:y)
+        
+     //   self.delegate?.onGetData(platform.width + x - screenWdith,theY:y)
     }
     
     func move(speed:CGFloat){

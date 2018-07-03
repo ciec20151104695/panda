@@ -2,12 +2,14 @@
 
 import SpriteKit
 
-class GameScene: SKScene {
+class GameScene: SKScene,SKPhysicsContactDelegate ,ProtocolMainscreen{
     lazy var panda = Panda()
     lazy var platformFactory = PlatformFactory()
-    
+    //移动速度
     
     var moveSpeed :CGFloat = 15.0
+    var lastDis:CGFloat = 0.0
+    
     
     override func didMoveToView(view: SKView) {
         
@@ -20,7 +22,11 @@ class GameScene: SKScene {
         self.addChild(panda)
         
         self.addChild(platformFactory)
+        platformFactory.screenWdith = self.frame.width
+        platformFactory.delegate = self
+
         platformFactory.createPlatform(3, x: 0, y: 200)
+        
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
@@ -42,7 +48,7 @@ class GameScene: SKScene {
 //                panda.position = CGPointMake(x, panda.position.y)
 //            }
 //            distance += moveSpeed
-//            lastDis -= moveSpeed
+            lastDis -= moveSpeed
 //            var tempSpeed = CGFloat(5 + Int(distance/2000))
 //            if tempSpeed > maxSpeed {
 //                tempSpeed = maxSpeed
@@ -51,17 +57,28 @@ class GameScene: SKScene {
 //                moveSpeed = tempSpeed
 //            }
 //            
-//            if lastDis < 0 {
-//                platformFactory.createPlatformRandom()
-//            }
+       
+        
+        
+            if lastDis <= 0 {
+                platformFactory.createPlatformRandom()
+            }
 //            distance += moveSpeed
 //            scoreLab.text = "run: \(Int(distance/1000*10)/10) km"
 //            appLab.text = "eat: \(appleNum) apple"
             platformFactory.move(moveSpeed)
 //            bg.move(moveSpeed/5)
 //            appleFactory.move(moveSpeed)
-//        }
-
+        }
         
-    }
+        func onGetData(dist:CGFloat,theY:CGFloat){
+            
+            self.lastDis = dist
+ //           self.theY = theY
+         //   appleFactory.theY = theY
+        }
+
+}
+protocol ProtocolMainscreen {
+    func onGetData(dist:CGFloat,theY:CGFloat)
 }
