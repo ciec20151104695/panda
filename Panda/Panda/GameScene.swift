@@ -12,16 +12,23 @@ class GameScene: SKScene,SKPhysicsContactDelegate ,ProtocolMainscreen{
     var lastDis:CGFloat = 0.0
     
     func didBeginContact(contact: SKPhysicsContact){
-          if (contact.bodyA.categoryBitMask | contact.bodyB.categoryBitMask) == (BitMaskType.scene | BitMaskType.panda){
         
-        }
-        
+         //熊猫和台子碰撞
         if (contact.bodyA.categoryBitMask | contact.bodyB.categoryBitMask) == (BitMaskType.platform | BitMaskType.panda){
             panda.run()
+            panda.jumpEnd = panda.position.y
+            if panda.jumpEnd-panda.jumpStart <= -70 {
+                panda.roll()
+            }
+            
         }
         
     }
     
+    func didEndContact(contact: SKPhysicsContact){
+        panda.jumpStart = panda.position.y
+        
+    }
     override func didMoveToView(view: SKView) {
         
         let skyColor = SKColor(red:113/255,green:197/255,blue:207/255,alpha:1)
