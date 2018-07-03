@@ -50,7 +50,7 @@ class PlatformFactory:SKNode {
         
         platforms.append(platform)
         
-     //   self.delegate?.onGetData(platform.width + x - screenWdith,theY:y)
+        self.delegate?.onGetData(platform.width + x - screenWdith,theY:y)
     }
     
     func move(speed:CGFloat){
@@ -58,12 +58,12 @@ class PlatformFactory:SKNode {
             let position = p.position
             p.position = CGPointMake(position.x - speed, position.y)
         }
-//        if platforms[0].position.x < -platforms[0].width{
-//            platforms[0].removeFromParent()
-//            platforms.removeAtIndex(0)
-//        }
+        if platforms[0].position.x < -platforms[0].width{
+            platforms[0].removeFromParent()
+            platforms.removeAtIndex(0)
+        }
     }
-    //清楚所有的Nod
+    //清除所有的Nod
 //    func reset(){
 //        
 //        self.removeAllChildren()

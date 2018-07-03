@@ -6,6 +6,7 @@ class GameScene: SKScene,SKPhysicsContactDelegate ,ProtocolMainscreen{
     lazy var panda = Panda()
     lazy var platformFactory = PlatformFactory()
     //移动速度
+    lazy var bg = Background()
     
     var moveSpeed :CGFloat = 15.0
     var lastDis:CGFloat = 0.0
@@ -15,16 +16,23 @@ class GameScene: SKScene,SKPhysicsContactDelegate ,ProtocolMainscreen{
         
         let skyColor = SKColor(red:113/255,green:197/255,blue:207/255,alpha:1)
         self.backgroundColor = skyColor
+        //背景
+        self.addChild(bg)
+        bg.zPosition = 20
+        //背景z坐标
         
         //给跑酷小人定一个初始位置
         panda.position = CGPointMake(200, 400)
         //将跑酷小人显示在场景中
+        panda.zPosition = 50
+        //熊猫z坐标
+        
         self.addChild(panda)
         
         self.addChild(platformFactory)
         platformFactory.screenWdith = self.frame.width
         platformFactory.delegate = self
-
+        platformFactory.zPosition = 35
         platformFactory.createPlatform(3, x: 0, y: 200)
         
     }
@@ -67,7 +75,7 @@ class GameScene: SKScene,SKPhysicsContactDelegate ,ProtocolMainscreen{
 //            scoreLab.text = "run: \(Int(distance/1000*10)/10) km"
 //            appLab.text = "eat: \(appleNum) apple"
             platformFactory.move(moveSpeed)
-//            bg.move(moveSpeed/5)
+            bg.move(moveSpeed/5)
 //            appleFactory.move(moveSpeed)
         }
         
