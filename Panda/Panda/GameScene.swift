@@ -11,6 +11,12 @@ class GameScene: SKScene,SKPhysicsContactDelegate ,ProtocolMainscreen{
     var moveSpeed :CGFloat = 15.0
     var lastDis:CGFloat = 0.0
     
+    func didBeginContact(contact: SKPhysicsContact){
+        if (contact.bodyA.categoryBitMask | contact.bodyB.categoryBitMask) == (BitMaskType.platform | BitMaskType.panda){
+        
+        }
+        
+    }
     
     override func didMoveToView(view: SKView) {
         
@@ -20,6 +26,13 @@ class GameScene: SKScene,SKPhysicsContactDelegate ,ProtocolMainscreen{
         self.addChild(bg)
         bg.zPosition = 20
         //背景z坐标
+        
+        self.physicsWorld.contactDelegate = self
+        self.physicsWorld.gravity = CGVectorMake(0, -5)
+        self.physicsBody = SKPhysicsBody(edgeLoopFromRect: self.frame)
+        self.physicsBody!.categoryBitMask = BitMaskType.scene
+        self.physicsBody!.dynamic = false
+//物理碰撞检测
         
         //给跑酷小人定一个初始位置
         panda.position = CGPointMake(200, 400)

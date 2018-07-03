@@ -65,15 +65,17 @@ class Panda:SKSpriteNode {
 //        jumpEffect.hidden = true
 //        self.addChild(jumpEffect)
 //        
-//        self.physicsBody = SKPhysicsBody(rectangleOfSize: size)
-//        self.physicsBody?.dynamic = true
-//        self.physicsBody?.allowsRotation = false
-//        self.physicsBody?.restitution = 0.1 //反弹力
-//        self.physicsBody?.categoryBitMask = BitMaskType.panda
-//        self.physicsBody?.contactTestBitMask = BitMaskType.scene | BitMaskType.platform | BitMaskType.apple
-//        self.physicsBody?.collisionBitMask = BitMaskType.platform
-//        self.zPosition = 20
-//        run()
+        self.physicsBody = SKPhysicsBody(rectangleOfSize: size)
+        self.physicsBody?.dynamic = true
+        self.physicsBody?.allowsRotation = false
+        //摩擦力
+        self.physicsBody?.restitution = 0.1 //反弹力
+        self.physicsBody?.categoryBitMask = BitMaskType.panda
+        self.physicsBody?.contactTestBitMask = BitMaskType.scene | BitMaskType.platform | BitMaskType.apple
+        //熊猫和场景产生碰撞
+        self.physicsBody?.collisionBitMask = BitMaskType.platform
+        self.zPosition = 20
+        run()
         
     }
     

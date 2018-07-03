@@ -12,6 +12,7 @@
 		FDBE921420EB4D66003B5856 /* background_f0.png in Resources */ = {isa = PBXBuildFile; fileRef = FDBE921220EB4D66003B5856 /* background_f0.png */; };
 		FDBE921520EB4D66003B5856 /* background_f1.png in Resources */ = {isa = PBXBuildFile; fileRef = FDBE921320EB4D66003B5856 /* background_f1.png */; };
 		FDBE921720EB4DD2003B5856 /* BackGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBE921620EB4DD2003B5856 /* BackGround.swift */; };
+		FDBE921920EB5E0D003B5856 /* BitMaskType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBE921820EB5E0D003B5856 /* BitMaskType.swift */; };
 		FDF3D85A20E1CB3500D233B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF3D85920E1CB3500D233B5 /* AppDelegate.swift */; };
 		FDF3D85C20E1CB3500D233B5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FDF3D85B20E1CB3500D233B5 /* GameScene.sks */; };
 		FDF3D85E20E1CB3500D233B5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF3D85D20E1CB3500D233B5 /* GameScene.swift */; };
@@ -55,6 +56,7 @@
 		FDBE921220EB4D66003B5856 /* background_f0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_f0.png; sourceTree = "<group>"; };
 		FDBE921320EB4D66003B5856 /* background_f1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_f1.png; sourceTree = "<group>"; };
 		FDBE921620EB4DD2003B5856 /* BackGround.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackGround.swift; sourceTree = "<group>"; };
+		FDBE921820EB5E0D003B5856 /* BitMaskType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitMaskType.swift; sourceTree = "<group>"; };
 		FDF3D85620E1CB3400D233B5 /* panda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = panda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF3D85920E1CB3500D233B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDF3D85B20E1CB3500D233B5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				FDF3D89D20E1CD0D00D233B5 /* Panda.swift */,
 				FDF3D85B20E1CB3500D233B5 /* GameScene.sks */,
 				FDF3D85D20E1CB3500D233B5 /* GameScene.swift */,
+				FDBE921820EB5E0D003B5856 /* BitMaskType.swift */,
 				FDB6DEFA20EA095100DB095F /* Platform.swift */,
 				FDB6DEFC20EA158D00DB095F /* PlatformFactory.swift */,
 				FDBE921620EB4DD2003B5856 /* BackGround.swift */,
@@ -340,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDB6DEFB20EA095100DB095F /* Platform.swift in Sources */,
+				FDBE921920EB5E0D003B5856 /* BitMaskType.swift in Sources */,
 				FDF3D85E20E1CB3500D233B5 /* GameScene.swift in Sources */,
 				FDF3D86020E1CB3500D233B5 /* GameViewController.swift in Sources */,
 				FDB6DEFD20EA158D00DB095F /* PlatformFactory.swift in Sources */,
