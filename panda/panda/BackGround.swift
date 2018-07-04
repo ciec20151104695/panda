@@ -1,6 +1,7 @@
 
 //场景的动态背景图类
 
+
 import SpriteKit
 
 class Background:SKNode {
