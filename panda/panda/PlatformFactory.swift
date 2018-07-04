@@ -64,11 +64,11 @@ class PlatformFactory:SKNode {
         }
     }
     //清除所有的Nod
-//    func reset(){
-//        
-//        self.removeAllChildren()
-//        platforms.removeAll(keepCapacity: false)
-//    }
+    func reset(){
+        
+        self.removeAllChildren()
+        platforms.removeAll(keepCapacity: false)
+    }
 }
 
 
