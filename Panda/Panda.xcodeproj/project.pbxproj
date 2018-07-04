@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FD6BAFA920EC882C003BE638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6BAFA820EC882C003BE638 /* AppDelegate.swift */; };
 		FD6BAFAB20EC8880003BE638 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6BAFAA20EC8880003BE638 /* SoundManager.swift */; };
+		FD6BAFAD20EC8A38003BE638 /* AppleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6BAFAC20EC8A38003BE638 /* AppleFactory.swift */; };
 		FDB6DEFB20EA095100DB095F /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB6DEFA20EA095100DB095F /* Platform.swift */; };
 		FDB6DEFD20EA158D00DB095F /* PlatformFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB6DEFC20EA158D00DB095F /* PlatformFactory.swift */; };
 		FDBE921420EB4D66003B5856 /* background_f0.png in Resources */ = {isa = PBXBuildFile; fileRef = FDBE921220EB4D66003B5856 /* background_f0.png */; };
@@ -54,6 +55,7 @@
 /* Begin PBXFileReference section */
 		FD6BAFA820EC882C003BE638 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD6BAFAA20EC8880003BE638 /* SoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		FD6BAFAC20EC8A38003BE638 /* AppleFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleFactory.swift; sourceTree = "<group>"; };
 		FDB6DEFA20EA095100DB095F /* Platform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
 		FDB6DEFC20EA158D00DB095F /* PlatformFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatformFactory.swift; sourceTree = "<group>"; };
 		FDBE921220EB4D66003B5856 /* background_f0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_f0.png; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				FD6BAFA820EC882C003BE638 /* AppDelegate.swift */,
 				FD6BAFAA20EC8880003BE638 /* SoundManager.swift */,
 				FDF3D85D20E1CB3500D233B5 /* GameScene.swift */,
+				FD6BAFAC20EC8A38003BE638 /* AppleFactory.swift */,
 				FDBE921820EB5E0D003B5856 /* BitMaskType.swift */,
 				FDB6DEFA20EA095100DB095F /* Platform.swift */,
 				FDB6DEFC20EA158D00DB095F /* PlatformFactory.swift */,
@@ -350,6 +353,7 @@
 				FDBE921920EB5E0D003B5856 /* BitMaskType.swift in Sources */,
 				FDF3D85E20E1CB3500D233B5 /* GameScene.swift in Sources */,
 				FDF3D86020E1CB3500D233B5 /* GameViewController.swift in Sources */,
+				FD6BAFAD20EC8A38003BE638 /* AppleFactory.swift in Sources */,
 				FDB6DEFD20EA158D00DB095F /* PlatformFactory.swift in Sources */,
 				FDBE921720EB4DD2003B5856 /* BackGround.swift in Sources */,
 				FDF3D89E20E1CD0D00D233B5 /* Panda.swift in Sources */,

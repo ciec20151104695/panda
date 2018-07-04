@@ -3,14 +3,24 @@
 import SpriteKit
 
 class GameScene: SKScene,SKPhysicsContactDelegate ,ProtocolMainscreen{
-    lazy var panda = Panda()
+    lazy var panda  = Panda()
     lazy var platformFactory = PlatformFactory()
     //移动速度
+    lazy var sound = SoundManager()
     lazy var bg = Background()
+    lazy var appleFactory = AppleFactory()
+    let scoreLab = SKLabelNode(fontNamed:"Chalkduster")
+    let appLab = SKLabelNode(fontNamed:"Chalkduster")
+    let myLabel = SKLabelNode(fontNamed:"Chalkduster")
+    var appleNum = 0
+    
     
     var moveSpeed :CGFloat = 15.0
+    var maxSpeed :CGFloat = 50.0
+    var distance:CGFloat = 0.0
     var lastDis:CGFloat = 0.0
-    
+    var theY:CGFloat = 0.0
+    var isLose = false
     func didBeginContact(contact: SKPhysicsContact){
         
          //熊猫和台子碰撞
