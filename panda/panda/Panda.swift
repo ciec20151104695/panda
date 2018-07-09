@@ -26,6 +26,8 @@ class Panda:SKSpriteNode {
         let texture = runAtlas.textureNamed("panda_run_01")
         let size = texture.size()
         super.init(texture: texture, color: SKColor.whiteColor(), size: size)
+        
+        
         //跑
         for var i = 1; i<=runAtlas.textureNames.count; i += 1 {
             let tempName = String(format: "panda_run_%.2d", i)
